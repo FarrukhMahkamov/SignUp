@@ -24,6 +24,7 @@
     line-height: 1.4;
     background-image: url('images/bg-intro-desktop.png');
     background-color:var(--red-color);
+    overflow: hidden;
   }
   .container{
       width: 1440px;
@@ -35,8 +36,35 @@
     display: flex;
     margin-left: 120px;
     margin-right: auto;
-    
+    margin-top: 200px;
+    align-items: center;
   }
-  .signup-text, .signup-form{
+  .signup-text{
+      width: 530px;
+
+  }
+  .signup-form{
+    margin-left: 100px;
+    width: 430px;
+    padding: 10px;
+    background:white;
+    padding-right: auto;
+    padding-left: auto;
+  }
+  .text-title{
+      color: rgb(240, 234, 234);
+      font-size: 40px;
+  }
+  .main-text{
       width: 500px;
+      color: whitesmoke;
+  }
+  .form-input{
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      width: 400px;
+  }
+  .form-btn{
+      width: 400px;
   }
